@@ -23,6 +23,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flame: ^0.26.0
+  audioplayers:
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -45,7 +47,29 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - assets/images/monster-1.png
+    - assets/images/monster-2.png
+    - assets/images/monster-3.png
+    - assets/images/monster-4.png
+    - assets/images/bomb.png
+    - assets/audio/explosion.mp3
+    - assets/audio/music.mp3
+    - assets/images/background.png
+    - assets/images/e-0.png
+    - assets/images/e-1.png
+    - assets/images/e-2.png
+    - assets/images/e-3.png
+    - assets/images/e-4.png
+    - assets/images/e-5.png
+    - assets/images/e-6.png
+    - assets/images/e-7.png
+    - assets/images/e-8.png
+    - assets/images/e-9.png
+    - assets/images/e-10.png
+    - assets/images/e-11.png
+    - assets/images/e-12.png
+    - assets/images/e-13.png
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
@@ -60,7 +84,10 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
+  fonts:
+    - family: astron boy
+      fonts:
+        - asset: fonts/astron boy.ttf
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
